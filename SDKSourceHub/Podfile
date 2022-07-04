@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SDKSourceHub' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ 
+  pod 'Texture', :path => '~/Document/Texture'
+  pod 'PINCache', :path => '~/Document/PINCache'
+  pod 'PINOperation', :path => '~/Document/PINOperation'
+  pod 'PINRemoteImage', :path => '~/Document/PINRemoteImage'
+  pod 'IGListKit', :path => '~/Document/IGListKit'
+  pod 'YYModel', :path => '~/Document/YYModel'
+  
+  # Pods for SDKSourceHub
+
+  target 'SDKSourceHubTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+
+end

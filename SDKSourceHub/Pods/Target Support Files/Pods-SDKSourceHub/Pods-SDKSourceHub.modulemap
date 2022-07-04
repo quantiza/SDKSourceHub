@@ -1,0 +1,6 @@
+framework module Pods_SDKSourceHub {
+  umbrella header "Pods-SDKSourceHub-umbrella.h"
+
+  export *
+  module * { export * }
+}
