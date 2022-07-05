@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A3D26DDF1D5B6AEB9FE8F46 /* Pods_SDKSourceHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AECF6D96ABC11C49598E45 /* Pods_SDKSourceHub.framework */; };
+		2C04096628741C5A00746F91 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C04096528741C5A00746F91 /* Person.m */; };
 		2C1CB62126B8D9EB000F0ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CB62026B8D9EB000F0ACD /* AppDelegate.m */; };
 		2C1CB62426B8D9EB000F0ACD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CB62326B8D9EB000F0ACD /* SceneDelegate.m */; };
 		2C1CB62726B8D9EB000F0ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CB62626B8D9EB000F0ACD /* ViewController.m */; };
@@ -50,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		05260C32541B0ABC332BE3E9 /* Pods_SDKSourceHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKSourceHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C04096428741C5A00746F91 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C04096528741C5A00746F91 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2C1CB61C26B8D9EB000F0ACD /* SDKSourceHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSourceHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1CB61F26B8D9EB000F0ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C1CB62026B8D9EB000F0ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 		2C1CB61E26B8D9EB000F0ACD /* SDKSourceHub */ = {
 			isa = PBXGroup;
 			children = (
+				2CBC18532872EF6400C6E30E /* YYModelExample */,
 				2CA980DF26B950ED00979208 /* IGListExample */,
 				2C1CB61F26B8D9EB000F0ACD /* AppDelegate.h */,
 				2C1CB62026B8D9EB000F0ACD /* AppDelegate.m */,
@@ -153,6 +157,8 @@
 				2C1CB63026B8D9ED000F0ACD /* Info.plist */,
 				2C1CB63126B8D9ED000F0ACD /* main.m */,
 				2CA980E026B9516600979208 /* SDKSourceHub-Bridging-Header.h */,
+				2C04096428741C5A00746F91 /* Person.h */,
+				2C04096528741C5A00746F91 /* Person.m */,
 			);
 			path = SDKSourceHub;
 			sourceTree = "<group>";
@@ -216,6 +222,13 @@
 				2CA9810126BA73D900979208 /* ImageCell.swift */,
 			);
 			path = WorkingRange;
+			sourceTree = "<group>";
+		};
+		2CBC18532872EF6400C6E30E /* YYModelExample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YYModelExample;
 			sourceTree = "<group>";
 		};
 		36D1BBAC642D3A8D8C31677E /* Frameworks */ = {
@@ -445,6 +458,7 @@
 				2CA980E626B952F200979208 /* LoadMoreViewController.swift in Sources */,
 				2C1CB63226B8D9ED000F0ACD /* main.m in Sources */,
 				2CA980E426B951DF00979208 /* IGListDemoItem.swift in Sources */,
+				2C04096628741C5A00746F91 /* Person.m in Sources */,
 				2C1CB62426B8D9EB000F0ACD /* SceneDelegate.m in Sources */,
 				2CA9810026BA6E3400979208 /* WorkingRangeSectionController.swift in Sources */,
 				2CA980EA26B9615100979208 /* LabelCell.swift in Sources */,

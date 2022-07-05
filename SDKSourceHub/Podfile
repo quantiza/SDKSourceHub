@@ -10,7 +10,7 @@ target 'SDKSourceHub' do
   pod 'PINOperation', :path => '~/Document/PINOperation'
   pod 'PINRemoteImage', :path => '~/Document/PINRemoteImage'
   pod 'IGListKit', :path => '~/Document/IGListKit'
-  pod 'YYModel', :path => '~/Document/YYModel'
+  pod 'YYModel', :path => '~/GitHub/YYModel/'
   
   # Pods for SDKSourceHub
 

@@ -41,6 +41,7 @@ PODS:
     - Texture/Core
   - Texture/Video (3.0.0):
     - Texture/Core
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - IGListKit (from `~/Document/IGListKit`)
@@ -48,6 +49,7 @@ DEPENDENCIES:
   - PINOperation (from `~/Document/PINOperation`)
   - PINRemoteImage (from `~/Document/PINRemoteImage`)
   - Texture (from `~/Document/Texture`)
+  - YYModel (from `~/GitHub/YYModel/`)
 
 EXTERNAL SOURCES:
   IGListKit:
@@ -60,6 +62,8 @@ EXTERNAL SOURCES:
     :path: "~/Document/PINRemoteImage"
   Texture:
     :path: "~/Document/Texture"
+  YYModel:
+    :path: "~/GitHub/YYModel/"
 
 SPEC CHECKSUMS:
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
@@ -67,7 +71,8 @@ SPEC CHECKSUMS:
   PINOperation: 3a967a927e7867e61976c6cc23e5770416449fbc
   PINRemoteImage: 029538fcfde181950f1fc43317c183f94d7f5e2e
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 67b10926da52866f46f239563ceff1d17c43a0bd
+PODFILE CHECKSUM: c0bfb901afc9167537b6ae7245af0555759bc773
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.7.5

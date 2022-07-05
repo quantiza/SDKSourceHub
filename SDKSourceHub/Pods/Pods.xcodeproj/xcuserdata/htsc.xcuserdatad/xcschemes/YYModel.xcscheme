@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2A8B2A28D2EAB2E4CCF3B69E6792851"
-               BuildableName = "PINRemoteImage.framework"
-               BlueprintName = "PINRemoteImage"
+               BlueprintIdentifier = "84B44807A12996D487A4A591A481D6A0"
+               BuildableName = "YYModel.framework"
+               BlueprintName = "YYModel"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
